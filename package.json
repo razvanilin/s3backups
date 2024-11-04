@@ -1,0 +1,18 @@
+{
+  "name": "s3backups",
+  "version": "1.0.0",
+  "description": "Taking database backups and uploads them to s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Razvan Ilin",
+    "email": "razvan.ilin@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1691.0",
+    "dotenv": "^16.4.5"
+  }
+}
